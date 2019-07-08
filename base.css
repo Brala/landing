@@ -1486,7 +1486,7 @@ button.swiper-pagination-bullet {
 .swiper-scrollbar {
     border-radius: 10px;
     position: relative;
-    -ms-touch-action: none;
+    /* -ms-touch-action: none; */
     background: rgba(0,0,0,.1)
 }
 
@@ -1703,7 +1703,7 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-container-coverflow .swiper-wrapper {
-    -ms-perspective: 1200px
+    /* -ms-perspective: 1200px */
 }
 
 .nuxt-progress {
@@ -4551,7 +4551,7 @@ button.swiper-pagination-bullet {
 }
 
 .Footer__input:-webkit-autofill,.Footer__input:-webkit-autofill:focus,.Footer__input:-webkit-autofill:hover {
-    -webkit-box-shadow: 0 0 0 1000px transparent inset;
+    /* -webkit-box-shadow: 0 0 0 1000px transparent inset; */
     -webkit-text-fill-color: #fff;
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s
