@@ -391,6 +391,7 @@ body{
 
 .product--details--nav{
     display: flex;
+    justify-content: space-around;
 }
 
 .product--details--nav--item{
@@ -428,6 +429,7 @@ body{
 
 .product--details--content--item{
     display: none;
+    line-height: 1.6;
 }
 
 .product--details--content--item.active{
@@ -452,6 +454,9 @@ body{
     border-radius: 2px;
     -webkit-transition: color .25s ease,border-color .25s ease,background-color .25s ease;
     transition: color .25s ease,border-color .25s ease,background-color .25s ease;
+
+    background-color: #fedb00;
+    border: 0;
 }
 
 
