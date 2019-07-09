@@ -3944,34 +3944,34 @@ button.swiper-pagination-bullet {
 
 .Carousel__arrow--prev {
     left: 0;
-    cursor: url(/imgs/arrow-left.png) 20 5,w-resize;
-    cursor: url(/imgs/arrow-prev.png)
+    cursor: url(./imgs/arrow-left.png) 20 5,w-resize;
+    cursor: url(./imgs/arrow-prev.png)
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution:192dpi) {
     .Carousel__arrow--prev {
-        cursor:url(/imgs/arrow-prev@2x.png)
+        cursor:url(./imgs/arrow-prev@2x.png)
     }
 }
 
 .Carousel__arrow--prev {
-    cursor: -webkit-image-set(url(/imgs/arrow-prev.png) 1x,url(/imgs/arrow-prev@2x.png) 2x) 20 5,w-resize
+    cursor: -webkit-image-set(url(./imgs/arrow-prev.png) 1x,url(./imgs/arrow-prev@2x.png) 2x) 20 5,w-resize
 }
 
 .Carousel__arrow--next {
     right: 0;
-    cursor: url(/imgs/arrow-right.png) 20 5,e-resize;
-    cursor: url(/imgs/arrow-next.png)
+    cursor: url(./imgs/arrow-right.png) 20 5,e-resize;
+    cursor: url(./imgs/arrow-next.png)
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),(min-resolution:192dpi) {
     .Carousel__arrow--next {
-        cursor:url(/imgs/arrow-next@2x.png)
+        cursor:url(./imgs/arrow-next@2x.png)
     }
 }
 
 .Carousel__arrow--next {
-    cursor: -webkit-image-set(url(/imgs/arrow-next.png) 1x,url(/imgs/arrow-next@2x.png) 2x) 20 5,e-resize
+    cursor: -webkit-image-set(url(./imgs/arrow-next.png) 1x,url(./imgs/arrow-next@2x.png) 2x) 20 5,e-resize
 }
 
 .CarouselSlide__image {

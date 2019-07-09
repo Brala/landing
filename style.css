@@ -22,7 +22,8 @@ body{
 }
 
 .logo{
-  margin: 0 auto;
+  margin: 10px auto -200px;;
+  display: block;
 }
 
 .product{
@@ -140,4 +141,5 @@ body{
 .swiper-container {
   /* width: 600px; */
   /* height: 300px; */
+  height: auto;
 }
